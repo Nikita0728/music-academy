@@ -22,6 +22,12 @@ const Navbar = () => {
             
        </MenuItem>
        <MenuItem setActive={setActive} active ={active} item="Services">
+        <div className="flex flex-col space-y-6">
+       <HoveredLink href="/web-dev">Web Development</HoveredLink>
+            <HoveredLink href="/">Interface Design</HoveredLink>
+            <HoveredLink href="/App development">App Development</HoveredLink>
+            <HoveredLink href="/branding">Branding</HoveredLink>
+            </div>
             
        </MenuItem>
         <MenuItem setActive={setActive} active ={active} item="Products">
